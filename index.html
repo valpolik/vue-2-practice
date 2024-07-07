@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app2</title>
+  <!-- <script src="https://unpkg.com/vue@2"></script> -->
+  <!-- <script src="https://unpkg.com/vue@2.7.16/dist/vue.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app2">
+    {{ message }}
+  </div>
+
+  <script>
+    var app = new Vue({
+      el: '#app2',
+      data: {
+        message: 'Привет, Vue!'
+      }
+    })
+  </script>
+</body>
+</html>
